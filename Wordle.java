@@ -71,7 +71,7 @@ public class Wordle
                 if(WORDLE_OF_THE_DAY.contains(character)) //If the character is found in the solution, but not at the correct index.
                 {
                     userAlphabet[index] = character.toLowerCase(); //Sets the letter in the alphabet to lower case.
-                } else { //If the character is not in the solution
+                } else {
                     userAlphabet[index] = " "; //Sets the letter in the alphabet to blank.
                 }
             }
